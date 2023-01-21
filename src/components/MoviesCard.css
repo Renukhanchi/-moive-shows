@@ -1,0 +1,46 @@
+.card{
+    /* width: 80vw; */
+    margin: 10px;
+   padding: 5px;
+   background-color: rgb(36, 87, 87);
+   color: white;
+   display: flex;
+}
+.card-img-top{
+    width: 15rem;
+    height: 25rem;
+}
+.card-body{
+    display: flex;
+    padding: 2px;
+}
+.card-title{
+   
+    font-style: italic;
+}
+.summary{
+   font-size: large;
+   line-height: 2rem;
+   letter-spacing: 1px;
+   margin: 10px;
+   margin-top:20px;
+}
+.book{
+    text-decoration: none;
+    color:white;
+    font-weight: bolder;
+    background-color: rgb(36, 10, 59);
+    border-radius: 20px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    font-size: large;
+}
+.book:hover{
+    font-size: x-large;
+}
+
+.p{
+    margin: 5px;
+    padding: 10px;
+}
