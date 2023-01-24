@@ -1,7 +1,23 @@
 .navbar{
     background-color: black !important;
     color: white !important;
+    
 }
 .nav-item:hover{
     font-size: larger;
+
+}
+.style_link{
+    text-decoration: none;
+    color:white;
+    margin-left:1rem;
+    font-size:1.2em;
+
+}
+.navbar-toggler{
+    background-color: white;
+
+}
+.navbar-brand:hover{
+    color: white;
 }

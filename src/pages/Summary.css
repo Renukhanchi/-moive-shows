@@ -1,0 +1,41 @@
+.container_2{
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+   height: 100vh;
+   
+}
+.display_flex_column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(32, 82, 82);
+    color: white;
+    padding: 30px;
+    
+}
+
+@media (max-width:776px) {
+    .both_part{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 18em;
+        padding: 0;
+  
+    }
+    .container_2{
+        height: auto;   
+        
+    }
+    .image1{
+        width: 100vw;
+        height: 50vh;
+    }
+    .image1{
+        width: 18em;
+        
+    }
+}

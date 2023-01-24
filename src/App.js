@@ -5,6 +5,7 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle';
 import Home from './pages/Home';
 import ShowMovies from './pages/ShowMovies';
+import Summary from './pages/Summary';
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/movies" element={<ShowMovies/>}/>
+          <Route path="/summary" element={<Summary/>}/>
+         
         </Routes>
       </BrowserRouter>
     </>

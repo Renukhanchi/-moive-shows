@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div >
         <NavBar/>
-        <div className='container '>
+        <div className='container c1'>
         <h1>watch your most loved shows here</h1>
         <Link to='/movies' className='button'>your loved shows are here</Link>
         </div>

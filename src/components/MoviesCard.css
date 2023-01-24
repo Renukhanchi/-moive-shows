@@ -1,46 +1,66 @@
-.card{
-    /* width: 80vw; */
-    margin: 10px;
-   padding: 5px;
-   background-color: rgb(36, 87, 87);
-   color: white;
-   display: flex;
-}
-.card-img-top{
-    width: 15rem;
-    height: 25rem;
-}
-.card-body{
+.display_flex{
     display: flex;
-    padding: 2px;
-}
-.card-title{
-   
-    font-style: italic;
-}
-.summary{
-   font-size: large;
-   line-height: 2rem;
-   letter-spacing: 1px;
-   margin: 10px;
-   margin-top:20px;
-}
-.book{
-    text-decoration: none;
-    color:white;
-    font-weight: bolder;
-    background-color: rgb(36, 10, 59);
-    border-radius: 20px;
-    padding: 5px;
-    display: flex;
-    align-items: center;
-    font-size: large;
-}
-.book:hover{
-    font-size: x-large;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.p{
-    margin: 5px;
-    padding: 10px;
+.card{
+   margin: 10px;
+   padding: 5px;
+   background-color: rgb(36, 87, 87);
+   width: 18rem;
+   font-size: smaller;
+   color: rgb(221, 170, 104);
+   height: 500.77px;
+
+} 
+.card-img-top{
+    height: 15rem;
+}
+.card-text{
+    color: white;
+    text-decoration: none ;
+    font-size:medium;  
+   
+}
+.card-text:hover{
+    color: rgb(221, 238, 72);
+   
+}
+abbr{
+    text-decoration: none !important;
+    cursor: pointer !important; 
+}
+.card-title{
+    color: rgb(112, 230, 190);
+    font-style: italic;
+    font-size: x-large;
+
+}
+.btn1{
+    background-color: rgb(36, 10, 59);
+    color: beige;
+    align-self: flex-end;
+    
+}
+.btn1:hover{
+    font-size: large;
+    color: aqua;
+    background-color: rgb(36, 10, 59);
+}
+
+@media (max-width:1000px){ 
+    .card{
+       margin: 2px;
+       background-color: rgb(36, 87, 87);
+       width: 12rem;
+
+    } 
+    .card-img-top{
+        height: 10rem;
+    }
+    .card-title {
+        font-size: small;
+    }
+  
 }

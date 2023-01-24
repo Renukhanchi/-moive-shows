@@ -1,7 +1,7 @@
 .movies_container{
-    /* display: flex; */
+    display: flex;
     margin: 10px;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     padding: 10px;
     justify-content: center;
     
@@ -10,4 +10,7 @@
     text-align: center;
     text-transform: uppercase;
     margin:10px ;
+}
+.remove_line{
+    text-decoration: none;
 }
